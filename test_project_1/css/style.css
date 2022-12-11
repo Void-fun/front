@@ -1,0 +1,539 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: #1C1B21;
+}
+.wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../img/back.svg');
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.container{
+    width: 1110px;
+    margin: 0 auto ;
+    padding: 0 50px;
+}
+.header{
+    display: flex;
+    gap:65px;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.header__logo-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-image: url('../img/icon.svg') ;
+}
+.header__logo-text{
+    width:143px;
+    height: 42px;
+    background-image: url('../img/logo.svg') ;
+}
+.header__button{
+    display: flex;
+    gap:56px;
+}
+.header__button-text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.player{
+    margin-top: 322px;
+    margin-bottom: 143px;
+}
+.player__subtitle{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+.player__title{
+    margin-top: 49px;
+    margin-bottom: 39px;
+    width:650px;
+    height: 72px;
+    background-image: url('../img/War For Love.svg') ;
+}
+.player__player{
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    gap:45px;
+}
+.player__player-start{
+    height: 25px;
+    width: 22px;
+    background-image: url('../img/start.svg') ;
+}
+.player__player-road{
+    margin-top: -8px;
+}
+.player__player-road-contur{
+    width: 887px;
+    height: 4px;
+    background:white;
+}
+.player__player-road-fill-frame{
+    margin-bottom: -12px;
+    display: flex;
+    align-items: center;
+}
+.player__player-road-fill{
+    width: 70px;
+    height: 4px;
+    background: #7A66CC;
+}
+.player__player-road-pointer{
+    width: 4px;
+    height: 20px;
+    background: #7A66CC;
+}
+.player__player-time{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.news{
+    margin-top: 143px;
+    display: flex;
+    gap: 30px;
+}
+.news-item{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px 0;
+}
+.news_text-container{
+    height: 48px;
+    top: -96px;
+    position: relative;
+    background: #7A66CC;
+    opacity: 0.7;
+    border-radius: 20px 0;
+    padding: 21px 20px;
+
+}
+.text-container_text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.about-us{
+    display: flex;
+    gap: 125px;
+    margin-top: 179px;
+}
+.about-us__text-header-icon{
+    background-image: url("../img/volumebars.svg");
+    height: 31px;
+    width: 64px;
+}
+.about-us__text{
+    width: 577px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.about-us__text-header{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.about-us__text-header-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+.about-us__text-paragraph{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    /* white */
+
+    color: #FFFFFF;
+
+    opacity: 0.7;
+}
+.about-us__text-info{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 30px;
+}
+.about-us__text-info-item{
+    display: flex;
+    gap: 20px;
+}
+.about-us__text-info-item-icon {
+    background: url("../img/aboutus_icon.svg");
+    height: 30px;
+    width: 30px;
+}
+.about-us__text-info-item-text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.about-us__picture{
+    display: flex;
+    align-items: center;
+}
+.banner{
+    margin-top: 238px;
+    height: 483px;
+}
+.banner__info{
+    border: 1px solid #FFFFFF;
+    border-radius: 30px 0px;
+    margin: 85px 0px;
+    padding: 50px 80px;
+}
+.banner__info-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    background-size: 103px, 92px;
+    background: url("../img/banner background.svg") no-repeat;
+    width: 520px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #999999;
+}
+.banner__info-href {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #7A66CC;
+    margin-top: 25px;
+}
+.banner__image{
+    position: relative;
+    top: -483px;
+    left: 660px;
+}
+.tracks {
+    margin-top: 180px;
+    display: flex;
+    gap: 60px;
+}
+.tracks__info{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.tracks__info-title{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.tracks__info-title-logo{
+    background: url("../img/volumebars.svg");
+    height: 31px;
+    width: 64px;
+}
+.tracks__info-title-text{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+.tracks__info-player{
+    background-image: url("../img/player-image.svg");
+    height: 27px;
+    width: 540px;
+}
+.tracks__info-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tracks__info-list-track{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.tracks__info-list-track-number{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+    opacity: 0.5;
+}
+.tracks__info-list-track-name{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.chosen-track{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #7A66CC;
+}
+.tracks__info-follow{
+    display: flex;
+    gap: 40px;
+}
+.tracks__info-follow-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.tracks__info-follow-hrefs{
+    display: flex;
+    gap: 30px;
+}
+.follow-hrefs-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.follow-hrefs-container-logo{
+    height: 30px;
+    width: 30px;
+}
+.follow-hrefs-container-source{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.spotify{
+    background: url("../img/spotify logo.svg");
+}
+.itunes{
+    background: url("../img/itunes logo.svg");
+}
+.gallery{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.gallery__column{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.gallery__column-row{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.events{
+    margin-top: 180px;
+    width: 1270px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    position: relative;
+    left: -80px;
+}
+.events__arrow{
+    width: 40px;
+    height: 60px;
+}
+.arrow-left{
+    background: url("../img/left_arrow.svg");
+}
+.arrow-right{
+    background: url("../img/right_arrow.svg");
+}
+.events__content{
+    display: flex;
+    gap: 30px;
+}
+.events__content-block{
+    background: #2F2B2B;
+    border-radius: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.events__content-block-img{
+    width: 350px;
+    height: 280px;
+}
+.event1{
+    background: url("../img/event1.svg");
+}
+.event2{
+    background: url("../img/event2.svg");
+}
+.event3{
+    background: url("../img/event3.svg");
+}
+.events__content-block-main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 35px;
+}
+.events__content-block-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+.events__content-block-info{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.events__content-block-bottom{
+    display: flex;
+    gap: 36px;
+    margin-left: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+.events__content-block-date{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.events__content-block-tickets_href{
+    height: 24px;
+    width: 76px;
+    background: #7A66CC;
+    border-radius: 30px 0px;
+    padding: 18px 57px;
+}
+.events__content-block-tickets_href a{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin-top: 180px;
+    align-items: center;
+}
+.footer__title{
+    display: flex;
+    gap: 30px;
+}
+.footer__title-icon{
+    width: 60px;
+    height: 60px;
+    background: url("../img/icon.svg");
+}
+.footer__title-logo{
+    width:143px;
+    height: 42px;
+    background-image: url('../img/logo.svg') ;
+}
+.footer__contacts{
+    display: flex;
+    gap: 30px;
+}
+.footer__contacts-keys{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.footer__contacts-values{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.footer__social{
+    display: flex;
+    gap: 30px;
+}
+.footer__social_icon{
+    width: 60px;
+    height: 60px;
+}
+.footer-itunes{
+    background: url("../img/itunes footer logo.svg");
+}
+.footer-spotify{
+    background: url("../img/spotify footer logo.svg");
+}
+.footer-inst{
+    background: url("../img/instagram footer logo.svg");
+}
+.footer-youtube{
+    background: url("../img/youtube footer logo.svg");
+}
+.footer-twitter{
+    background: url("../img/twitter footer logo.svg");
+}
+.footer-facebook{
+    background: url("../img/facebook footer logo.svg");
+}
+.watermark{
+    margin-top: 108px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
