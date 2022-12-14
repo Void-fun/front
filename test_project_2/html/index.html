@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>calc</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="container">
+        <div class="calculator">
+            <input class="input" type="text" readonly="readonly" value="0">
+            <div class="buttons">
+                <div class="row">
+                    <button class="button service" id="clear" onclick="clear_all()">AC</button>
+                    <button class="button service" onclick="change_sign()">+/-</button>
+                    <button class="button service" onclick="in_percents()">%</button>
+                    <button class="button functional" id="division" onclick="operation('/')">/</button>
+                </div>
+                <div class="row">
+                    <button class="button number" onclick="click_number(7)">7</button>
+                    <button class="button number" onclick="click_number(8)">8</button>
+                    <button class="button number" onclick="click_number(9)">9</button>
+                    <button class="button functional" id="multiplication" onclick="operation('*')">x</button>
+                </div>
+                <div class="row">
+                    <button class="button number" onclick="click_number(4)">4</button>
+                    <button class="button number" onclick="click_number(5)">5</button>
+                    <button class="button number" onclick="click_number(6)">6</button>
+                    <button class="button functional" id="minus" onclick="operation('-')">-</button>
+                </div>
+                <div class="row">
+                    <button class="button number" onclick="click_number(1)">1</button>
+                    <button class="button number" onclick="click_number(2)">2</button>
+                    <button class="button number" onclick="click_number(3)">3</button>
+                    <button class="button functional" id="plus" onclick="operation('+')">+</button>
+                </div>
+                <div class="row">
+                    <button class="button_zero number" onclick="click_number(0)">0</button>
+                    <button class="button number" onclick="click_number('.')">.</button>
+                    <button class="button functional" onclick="calculate()">=</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="logs">
+            <h3>Logs</h3>
+            <div class="logs_item"></div>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="../js/script.js"></script>
+</html>
